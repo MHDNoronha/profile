@@ -1,0 +1,107 @@
+i {
+  color: rgba(71, 203, 230, 0.899);
+  font-size: 35px;
+  text-decoration-line: none;
+}
+
+i:hover {
+  background-color: #aa7dce;
+  transition: 1s
+}
+
+i:active {
+  color: #aa7dce;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  font-weight: 600;
+  color: #8F122C;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #8F122C;
+  line-height: 50px;
+}
+
+p {
+  font-family: 'Righteous', cursive;
+  color: #85727A
+}
+
+body {
+  background-color: rgba(236, 238, 238, 0.262);
+}
+
+#DP {
+  border-radius: 75px;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  border-top: 5px solid rgb(126, 215, 200);
+  border-right: 5px solid rgb(126, 215, 200);
+  border-bottom: 5px rgb(126, 215, 200);
+  border-left: 5px rgb(126, 215, 200);
+  box-shadow: 0px 0px 30px #7cb4b8;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 20px, 0px
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: rgba(33, 186, 197, 0.553);
+  font-size: medium;
+  font-weight: 600;
+  color: whitesmoke;
+  font-family: 'Righteous', cursive;
+  padding: 20px, 10px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #085870;
+  transition: 1s;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
